@@ -41,3 +41,6 @@ externals
 
 #MAC
 *.DS_Store
+.vscode
+build
+.vscode/settings.json

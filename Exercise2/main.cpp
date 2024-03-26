@@ -34,6 +34,7 @@ int main()
     }
 
     std::ofstream outFile("result.csv"); // if file does not exist, it is created
+    outFile << "# N Mean" << std::endl;  // write s on file
 
     for (int i = 1; i < 1001; i++)
     {
